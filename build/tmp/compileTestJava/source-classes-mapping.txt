@@ -1,0 +1,6 @@
+com/apiautomation/LoginAPITest.java
+ com.apiautomation.LoginAPITest
+com/apiautomation/GetSingleUserAPITest.java
+ com.apiautomation.GetSingleUserAPITest
+com/apiautomation/UserCreationAPITest.java
+ com.apiautomation.UserCreationAPITest

@@ -1,0 +1,20 @@
+<suite name="Suite1" verbose="1" >
+    <test name="User Creation" >
+        <classes>
+            <class name="com.apiautomation.UserCreationAPITest" />
+        </classes>
+    </test>
+
+    <test name="Login" >
+        <classes>
+            <class name="com.apiautomation.LoginAPITest" />
+        </classes>
+    </test>
+
+    <test name="Get Single User" >
+        <classes>
+            <class name="com.apiautomation.GetSingleUserAPITest" />
+        </classes>
+    </test>
+
+</suite>

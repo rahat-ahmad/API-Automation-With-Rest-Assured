@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apiautomation.GetSingleUserAPITest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-06-08T11:36:18" hostname="K-RAHAT-L1" time="2.442">
+  <properties/>
+  <testcase name="test_1_getUserValidateWithStatusCode" classname="com.apiautomation.GetSingleUserAPITest" time="1.393"/>
+  <testcase name="test_2_getUserValidateWithResponseData" classname="com.apiautomation.GetSingleUserAPITest" time="0.363"/>
+  <testcase name="test_3_getUserWithWrongID" classname="com.apiautomation.GetSingleUserAPITest" time="0.686"/>
+  <system-out><![CDATA[##############################################################################################################
+Log of test_1_get User Validate With StatusCode
+HTTP/1.1 200 OK
+Date: Wed, 08 Jun 2022 11:36:19 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 6836
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lM6QEb%2Bdy5gsZHC4mgVhMD3mqJcXpsq8EUislFYZxQCyBk9cNo0AZCp1aYUcYBEbhyrF%2Bd2prB2dKBIJKT5Y2J5VQEgIrdd2zZLlnUXjx%2BxtpNdrtawGR3f8oQw%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 71815444bbe79f85-SIN
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+##############################################################################################################
+Log of test_2_get User Validate With Response Data
+HTTP/1.1 200 OK
+Date: Wed, 08 Jun 2022 11:36:20 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 4700
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Gxx%2B4D9X432D34Ab6PEuA8EmnLGygbCfYRGT0tpKlJmefMOh%2Bxr8wntwk3aalQOcIqcjANYApRkkKRm4DwPmpmGqZKRcNt0K44oQ1el79bdHg5jZqpwhE3lyxTc%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 71815446e9ef4c8f-SIN
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+##############################################################################################################
+Log of test_3_getUserWithWrongID
+HTTP/1.1 404 Not Found
+Date: Wed, 08 Jun 2022 11:36:21 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: EXPIRED
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZJg9gJjmfD0eaLtk6bUvR3CNS6hF34xLVDvr%2FnR6FeKi2cXP4xJM9nr5FJNBTU4jtApca%2BBDki43ceRnS3%2B0SwxMOfv877qaMF15ts%2FnUfRKt75OaoeCzvzoyHg%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 718154491ec81908-SIN
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

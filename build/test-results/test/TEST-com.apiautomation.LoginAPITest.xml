@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apiautomation.LoginAPITest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-06-08T11:36:16" hostname="K-RAHAT-L1" time="2.46">
+  <properties/>
+  <testcase name="test_1_LoginValidateWithStatusCode" classname="com.apiautomation.LoginAPITest" time="0.8"/>
+  <testcase name="test_2_LoginValidateWithInvalidData" classname="com.apiautomation.LoginAPITest" time="0.888"/>
+  <testcase name="test_3_LoginWithInvalidDataValidateWithResponse" classname="com.apiautomation.LoginAPITest" time="0.772"/>
+  <system-out><![CDATA[##############################################################################################################
+Log of test_1_LoginValidateWithStatusCode
+Request Data: {"password":"cityslicka","email":"eve.holt@reqres.in"}
+##############################################################################################################
+Log of test_2_LoginValidateWithInvalidData
+Request Data: {"password":"1234","email":"eve"}
+HTTP/1.1 400 Bad Request
+Date: Wed, 08 Jun 2022 11:36:17 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 26
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1a-EGIcyP6BIiCXl5Gb1aph5CGf4VQ"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VuiA1Ib431Yo03h88DEASAWJQ7CImtOAJ%2BhCIyXHsTVTM5v6d7v%2FitbxfwbDDUUI3r05g1ClKq0DSSqZWSPEDzrWp6j2IlqqJd2k6nzWtj37uVPkNIupCiq2UWs%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 718154341f564ab3-SIN
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "error": "user not found"
+}
+##############################################################################################################
+Log of test_3_LoginWithInvalidDataValidateWithResponse
+Request Data: {"password":"1234","email":"eve"}
+HTTP/1.1 400 Bad Request
+Date: Wed, 08 Jun 2022 11:36:18 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 26
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1a-EGIcyP6BIiCXl5Gb1aph5CGf4VQ"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=x6xzhyNcGKYQNxVgsPombkgxI4%2BadqUsj3N52mTu3eoxyu7rIghRmaygrvZ8xfRhFb2eqhQk6xZgq8UPThuRuwRMC6dKu%2BlPI1ykBN%2FKwlHrTFLaRxdeT%2Bey5Y0%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 71815439bb3f91b7-SIN
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "error": "user not found"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
