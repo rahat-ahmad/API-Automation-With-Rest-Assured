@@ -1,0 +1,12 @@
+API documentation URL- "https://reqres.in/"
+
+
+
+#######################
+
+After Execution, Report will be generated on "/build/reports/tests/test/index.html"
+
+TestNG XML file can be found on "/src/test/testng.xml"
+
+In test execution, Data are taken from excel file. Excel file location - "/data"
+
