@@ -20,7 +20,7 @@ public class GetSingleUserAPITest {
     }
 
     @Test
-    public void test_1_getUserValidateWithStatusCode() throws IOException {
+    public void test_1_getUserValidateWithStatusCode_TC0009() throws IOException {
 
         Reporter.log("##############################################################################################################",true);
         Reporter.log("Log of test_1_get User Validate With StatusCode",true);
@@ -29,7 +29,7 @@ public class GetSingleUserAPITest {
     }
 
     @Test
-    public void test_2_getUserValidateWithResponseData() throws IOException {
+    public void test_2_getUserValidateWithResponseData_TC0010() throws IOException {
         Reporter.log("##############################################################################################################",true);
         Reporter.log("Log of test_2_get User Validate With Response Data",true);
 
@@ -39,7 +39,7 @@ public class GetSingleUserAPITest {
     }
 
     @Test
-    public void test_3_getUserWithWrongID() throws IOException {
+    public void test_3_getUserWithWrongID_TC0011() throws IOException {
         Reporter.log("##############################################################################################################",true);
         Reporter.log("Log of test_3_getUserWithWrongID",true);
 

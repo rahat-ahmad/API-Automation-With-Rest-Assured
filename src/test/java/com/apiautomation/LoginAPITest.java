@@ -23,7 +23,7 @@ public class LoginAPITest {
     }
 
     @Test
-    public void test_1_LoginValidateWithStatusCode() throws IOException {
+    public void test_1_LoginValidateWithStatusCode_TC0005() throws IOException {
 
         ExcelUtils excelUtils = new ExcelUtils();
         Reporter.log("##############################################################################################################",true);
@@ -35,7 +35,7 @@ public class LoginAPITest {
     }
 
     @Test
-    public void test_2_LoginValidateWithInvalidData() throws IOException {
+    public void test_2_LoginValidateWithInvalidData_TC0006() throws IOException {
 
         ExcelUtils excelUtils = new ExcelUtils();
         Reporter.log("##############################################################################################################",true);
@@ -47,7 +47,7 @@ public class LoginAPITest {
     }
 
     @Test
-    public void test_3_LoginWithInvalidDataValidateWithResponse() throws IOException {
+    public void test_3_LoginWithInvalidDataValidateWithResponse_TC0007() throws IOException {
 
         ExcelUtils excelUtils = new ExcelUtils();
         Reporter.log("##############################################################################################################",true);

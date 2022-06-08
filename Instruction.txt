@@ -10,3 +10,8 @@ TestNG XML file can be found on "/src/test/testng.xml"
 
 In test execution, Data are taken from excel file. Excel file location - "/data"
 
+
+
+
+
+Test Plan and Test Case can be found on "/TestPlan&TestCase"

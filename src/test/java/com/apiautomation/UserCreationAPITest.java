@@ -23,7 +23,7 @@ public class UserCreationAPITest {
     }
 
     @Test
-    public void test_1_userCreationValidateWithStatusCode() throws IOException {
+    public void test_1_userCreationValidateWithStatusCode_TC0002() throws IOException {
 
         ExcelUtils excelUtils = new ExcelUtils();
 
@@ -36,7 +36,7 @@ public class UserCreationAPITest {
     }
 
     @Test
-    public void test_2_userCreationValidateWithResponseData() throws IOException {
+    public void test_2_userCreationValidateWithResponseData_TC0003() throws IOException {
 
         ExcelUtils excelUtils = new ExcelUtils();
 
